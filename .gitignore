@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+dist/
+build/
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Private/Test assets
+*.jpg
+*.png
+*.jpeg
+!assets/  
+# Cloudflare/Environment
+.dev.vars
+.wrangler/
+

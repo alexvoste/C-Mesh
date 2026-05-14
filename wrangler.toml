@@ -1,0 +1,9 @@
+name = "c-mesh-proxy"
+main = "worker.js"
+
+[vars]
+# Переменные окружения
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.js"]
